@@ -1,0 +1,119 @@
+   @import url(https://www.fontspace.com/connection-ii-font-f31971);
+ 
+       body {
+           overflow: hidden;
+            margin: 0;
+            padding: 0;
+            opacity: 100%;
+            font-family: "Connection II";
+            color: black;
+        }
+
+        .grid {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+}
+  
+
+/* CHARACTER */
+        .player {
+            position: absolute;
+            bottom: 8%;
+            margin-left: -45px;
+            width: 400px;
+            height: 400px;
+
+            
+}
+
+/* INSTRUCTIONS */
+        .instr {
+           width: 80vw;
+           height: 70vh;
+           margin: auto;
+            background-color: transparent;
+            visibility: visible;
+
+}
+
+
+/* GameOver */
+        .gameOver {
+            width: 60vw;
+           height: 70vh;
+           margin: auto;
+           position: absolute;
+           top: 0;
+            background-color: transparent;
+            visibility: hidden;
+
+}
+
+
+        .obstacle {
+            position: absolute;
+            bottom: 5vh;
+            width: 400px;
+            height: 400px;
+            background: transparent;
+            background-image: url(obj3.png);
+        }
+
+        .background1 {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            bottom: 0%;
+            left: 0%;
+            background-image: url(bg1.png);
+            background-size: cover;
+            background-position: center;
+            z-index: -2;
+}
+
+        .background2 {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            bottom: 0%;
+            left: 100%;
+            background-image: url(bg2.png);
+            background-position: center;
+            background-size: cover;
+            z-index: -2;
+}
+
+        .scores {
+            position: absolute;
+            top: 2.7%;
+            left: 6%;
+        
+            text-align: right;
+            width: 90%;
+            font-size: 60px;
+            
+        
+        }
+        
+            #highScore {
+            
+                font-size: 40px;
+            }
+
+@media only screen and (max-width: 896px) {
+    .player {
+        width: 250px;
+        height: 250px;  
+        background-size: contain;
+}
+.obstacle {
+    width: 250px;
+    height: 250px;
+    background: transparent;
+    background-image: url(obj3.png);
+    background-size: contain;
+}
+
+              }
