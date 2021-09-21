@@ -1,6 +1,8 @@
    @import url(https://www.fontspace.com/connection-ii-font-f31971);
  
        body {
+          height : 100vh;
+          width : 100vw;
            overflow: hidden;
             margin: 0;
             padding: 0;
